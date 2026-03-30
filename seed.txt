@@ -1,0 +1,10 @@
+[dotenv@17.3.1] injecting env (4) from .env.local -- tip: 🛡️ auth for agents: https://vestauth.com
+Starting scanner test...
+Scanner Error: Error: Failed to call Anthropics API: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-sonnet-20241022"},"request_id":"req_011CZRgWqMqLsdaxVogxsn9Q"}
+    at analyzeServerWithClaude (C:\codes\mcphub\lib\scanner.ts:62:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async test (C:\codes\mcphub\scripts\test-scanner.ts:40:20)
+Scanner failed: Error: Failed to call Anthropics API: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-sonnet-20241022"},"request_id":"req_011CZRgWqMqLsdaxVogxsn9Q"}
+    at analyzeServerWithClaude (C:\codes\mcphub\lib\scanner.ts:62:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async test (C:\codes\mcphub\scripts\test-scanner.ts:40:20)

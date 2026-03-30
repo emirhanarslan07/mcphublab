@@ -1,0 +1,3 @@
+📊 DB Deep Dive:
+- Sample Stars: [{"name":"google-drive","stars":82265},{"name":"bytedance/deer-flow","stars":50039},{"name":"slack","stars":239},{"name":"postgres","stars":239},{"name":"sqlite","stars":239},{"name":"stripe","stars":1016},{"name":"avelino/awesome-go","stars":168439},{"name":"microsoft/playwright-mcp","stars":29840},{"name":"D4Vinci/Scrapling","stars":33362},{"name":"bytedance/UI-TARS-desktop","stars":29130}]
+- Exactly 0 Stars: 0

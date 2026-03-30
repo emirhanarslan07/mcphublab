@@ -1,0 +1,3 @@
+📊 DB Stats:
+- Total Servers: 762
+- Low Star (<20) Servers: 0

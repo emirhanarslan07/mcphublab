@@ -1,0 +1,56 @@
+﻿[dotenv@17.3.1] injecting env (4) from .env.local -- tip: ­şøá´©Å  run anywhere with `dotenvx run -- yourcommand`
+Starting scanner test...
+node.exe : Scanner Erro
+r: Error: Failed to cal
+l Anthropics API: {"typ
+e":"error","error":{"ty
+pe":"not_found_error","
+message":"model: claude
+-3-5-sonnet-20241022"},
+"request_id":"req_011CZ
+RgeDscZBmYh4Goyk5c8"}
+At C:\Program Files\nod
+ejs\npx.ps1:29 char:3
++   & $NODE_EXE $NPX_CL
+I_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Scanner Error   
+ : ...ZBmYh4Goyk5c8    
+"}:String) [], Rem    o
+teException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+    at analyzeServerWit
+hClaude (C:\codes\mcphu
+b\lib\scanner.ts:62:13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:105:5)
+    at async test (C:\c
+odes\mcphub\scripts\tes
+t-scanner.ts:40:20)
+Scanner failed: Error: 
+Failed to call Anthropi
+cs API: {"type":"error"
+,"error":{"type":"not_f
+ound_error","message":"
+model: claude-3-5-sonne
+t-20241022"},"request_i
+d":"req_011CZRgeDscZBmY
+h4Goyk5c8"}
+    at analyzeServerWit
+hClaude (C:\codes\mcphu
+b\lib\scanner.ts:62:13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:105:5)
+    at async test (C:\c
+odes\mcphub\scripts\tes
+t-scanner.ts:40:20)

@@ -1,0 +1,13 @@
+[dotenv@17.3.1] injecting env (4) from .env.local -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+Starting scanner test...
+Primary model unavailable, using Haiku fallback...
+Scanner Error: Error: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-haiku-20240307"},"request_id":"req_011CZRhPCr467wNguBuJz7M2"}
+    at makeRequest (C:\codes\mcphub\lib\scanner.ts:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async analyzeServerWithClaude (C:\codes\mcphub\lib\scanner.ts:77:16)
+    at async test (C:\codes\mcphub\scripts\test-scanner.ts:40:20)
+Scanner failed: Error: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-haiku-20240307"},"request_id":"req_011CZRhPCr467wNguBuJz7M2"}
+    at makeRequest (C:\codes\mcphub\lib\scanner.ts:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async analyzeServerWithClaude (C:\codes\mcphub\lib\scanner.ts:77:16)
+    at async test (C:\codes\mcphub\scripts\test-scanner.ts:40:20)
