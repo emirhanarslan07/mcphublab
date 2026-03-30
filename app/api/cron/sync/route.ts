@@ -1,5 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import { NextResponse } from 'next/server';
+import { analyzeServerWithClaude } from '@/lib/scanner';
 
 export const dynamic = 'force-dynamic';
 export const fetchCache = 'force-no-store';
@@ -83,7 +84,6 @@ export async function GET(request: Request) {
           let context = server.description;
           if (rdRes.ok) context += "\n\n" + (await rdRes.text()).slice(0, 10000);
 
-          // @ts-ignore - Assuming analyzeServerWithClaude is imported or available
           const analysis = await analyzeServerWithClaude(context);
           
           await supabase.from('mcp_servers').update({
